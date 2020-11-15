@@ -1,0 +1,86 @@
+$paddings: 30px;
+$min-width: 320px;
+$base-wrapp: 1590px;
+$max-width: calc(#{$base-wrapp} + #{$paddings} * 2);
+$base-bg: #E5E5E5;
+$base-font-size: 1rem;
+$base-line-height: 1.75rem;
+$base-font-family: "Proxima Nova", "Open Sans", Arial, sans-serif;
+$default-transition: all 0.4s linear;
+$trs: all 0.4s cubic-bezier(0.87, 0.06, 0.14, 1);
+$trs_low: all 1s cubic-bezier(0.87, 0.06, 0.14, 1);
+$trs_faster: all 0.2s cubic-bezier(0.87, 0.06, 0.14, 1);
+$trs-wow: all 2s cubic-bezier(0.87, 0.06, 0.14, 1);
+
+
+$shadow: 0px 10px 17px rgba(0, 0, 0, 0.05);
+
+//breakpoints
+$xs: 575px;
+$sm: 767px;
+$md: 991px;
+$lg: 1279px;
+$xl: 1489px;
+
+/* main variables */
+$col-1_dark: #009F86;
+$col-1_gradient: linear-gradient(270deg, #00DA92, #009F86 100%);
+$col-1: #00da92;
+
+$col-2_dark: #F24274;
+$col-2_gradient: linear-gradient(270deg, #FF6784 0%, #F24274 100%);
+$col-2: #FF6784;
+
+$col-3_dark: #008CD5;
+$col-3_gradient: linear-gradient(270deg, #03B5FF 0%, #008CD5 100%);
+$col-3: #03B5FF;
+
+$col-4_dark: #F69F16;
+$col-4_gradient: linear-gradient(270deg, #FFD200 0%, #F69F16 100%);
+$col-4: #FFD200;
+
+$col-5: #272727;
+$col-6: #F5F5F5;
+$col-7: #7e7e7e;
+
+
+$bg-1:rgba(#fff, .1);
+
+$bd: rgba(187, 187, 187, 0.5);
+
+//text, titles
+$text-color: #272727;
+$t-col-2: #F5F5F5;
+$t-col-3: #515151;
+$t-col-4: #000;
+$t-col-5: #fff;
+$title-main-color: $text-color;
+$title-color: $text-color;
+
+
+$font-size-h1: 36px;
+$line-height-h1: 49px;
+$font-size-h2: 36px;
+$line-height-h2: 49px;
+$font-size-h3: 36px;
+$line-height-h3: 49px;
+$font-size-h4: 18px;
+$line-height-h4: 24px;
+
+$f-s-xs: 14px;   
+$lh-xs: 14px;   
+$f-s-sm: 16px;   
+$lh-sm: 22px;   
+$f-s-md: 28px;   
+$lh-md: 38px;
+$f-s-lg: 30px;  
+$lh-lg: 30px;  
+
+$f-s-big-xs: 34px;
+$f-s-big-sm: 40px;
+$f-s-big-md: 50px;
+$lh-big-md: 62px;
+$f-s-big-lg: 100px;
+$lh-big-lg: 110px;
+$f-s-big-xl: 110px;
+$lh-big-xl: 90px;
